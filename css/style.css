@@ -1,6 +1,6 @@
 :root {
-    --bg-color: #FFF6F4;
-    --base-color: black;
+    --light-base-color: #FFF6F4;
+    --dark-base-color: black;
     --main-color: #525FE1;
     --accent-color: #F86F03;
     --lighter-accent-color: #FFA41B ;    
@@ -10,23 +10,82 @@
 * {
     font-family: 'Khula', sans-serif;
     font-weight: 100;
+    font-size: 16px;
 }
 
 body{
-    background-color: var(--bg-color);
+    background-color: var(--light-base-color);
 }
 
 section {
     padding: 10px 20px;
-    height: auto;
+    height: 100vh;
     margin: 10px 20px;
     }
 
 h1{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
+    font-size: 2rem;
+}
+
+/* #region NavBar */
+header {
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    height: 62px;
+    position: fixed;
+    z-index:  5;
+
+    
+}
+
+#logo-red, #logo-unison {
+  height: 60px;
+  width: auto;
+  padding: 15px;
+
+  display: flex;
+}
+
+#logo-red > img, 
+#logo-unison > img {
+  width: auto;
+  padding: 5px;
+  margin: 5px;
 }
 
 nav{
+    display: flex;    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+ padding: 25px 0px ;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--dark-base-color);
+    font-weight: 400;
+    padding: 25px
+}
+
+nav li:hover {
+    background-color: var(--accent-color);
 
 }
+
+nav li a:hover {
+    color: var(--light-base-color);
+}
+
+  /* #endregion */
