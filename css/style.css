@@ -1,0 +1,32 @@
+:root {
+    --bg-color: #FFF6F4;
+    --base-color: black;
+    --main-color: #525FE1;
+    --accent-color: #F86F03;
+    --lighter-accent-color: #FFA41B ;    
+
+}
+
+* {
+    font-family: 'Khula', sans-serif;
+    font-weight: 100;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+section {
+    padding: 10px 20px;
+    height: auto;
+    margin: 10px 20px;
+    }
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+nav{
+
+}
