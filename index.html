@@ -11,55 +11,121 @@
 
     <script src="https://kit.fontawesome.com/bc727d0392.js" crossorigin="anonymous"></script>
 
+    <script src="./js/main.js"></script>
+
     <title>Jornada Archivistica</title>
 
 </head>
 <body>
     <header>
-
-        <img id="logo-red" src="./img/logo-red-archivistas.jpeg" title="Red de archivistas">
-    
+        <a href="https://archivogeneral.unison.mx/red-de-archivistas-de-sonora/" target="_blank">
+            <img id="logo-red" src="./img/logo-red-archivistas.jpeg" title="Red de archivistas">
+        </a>
         <nav>
     
           <ul>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#conferencistas">Conferencistas</a></li>
             <li><a href="#programa">Programa</a></li>
-            <li><a href="#programa">Ubicacion</a></li>
-            <li><a href="#programa">Contacto</a></li>
+            <li><a href="#ubicacion">Ubicacion</a></li>
+            <li><a href="#contacto">Contacto</a></li>
 
           </ul>
     
         </nav>
-
-        <img id="logo-unison" src="./img/logo-unison.png" title="UNISON">
-
+        <a href="https://www.unison.mx/" target="_blank">
+            <img id="logo-unison" src="./img/logo-unison.png" title="UNISON">
+        </a>
         
       </header>
     
         <section id="inicio">
-
+            <div class="registro">
+                    <a href="#conferencistas">Regístrate aquí</a>
+            </div>
         </section>
         
         <section id="conferencistas">
-
+            <h1>Conferencistas</h1>
         </section>
     
         <section id="programa">
+            <h1>Programa</h1>
+
+        </section>
+
+        <section id="ubicacion">
+            <h1>Ubicación</h1>
+
+            <div class="mapa-container">
+
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3486.854526933574!2d-110.9610955753044!3d29.08044342362937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce84491ead1bcf%3A0xfdb274fba98a7049!2sCentro%20de%20las%20Artes%20Unison!5e0!3m2!1ses-419!2smx!4v1696318597065!5m2!1ses-419!2smx" 
+                    width="800" 
+                    height="600" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+        
+              </div>
+
+        </section>
+
+        <section id="contacto">
+            <h1>Redes Sociales</h1>
+        <div class="redes-contenedor">
+
+            <div class="tarjeta-contacto">
+                <div class="tarjeta-contenedor">
+                    <h1> Contactáctanos! </h1>
+                    <p>lenguasextranjeras@unison.mx</p>
+                    <p>Tels: (662) 454.8415 </p>
+
+                </div>
+            </div>
+
+            <div class="redes-preview">
+            <iframe 
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsoyunison%2F&tabs=timeline&width=400&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" 
+                width="350" 
+                height="500" 
+                style="border:none;overflow:hidden" 
+                scrolling="no" 
+                frameborder="0" 
+                allowfullscreen="true" 
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+            </iframe>
+            </div>
+
+            <div class="redes-preview">
+            <a class="twitter-timeline" 
+            data-lang="es" 
+            data-width="350" 
+            data-height="500" 
+            data-theme="light" 
+            href="https://twitter.com/SoyUnison?ref_src=twsrc%5Etfw">Tweets by SoyUnison</a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        
+        </div>
+    
+    </div>
 
         </section>
 
     
         <footer>
-            <h1>Contacto</h1>
+           <p>2023 Archivo General Universitario | Universidad de Sonora</p>
         </footer>
     
       <main>
     
       </main>
-    
-      <footer>
-    
-      </footer>
+
+    <button id="btn-ir-arriba">
+        <svg viewBox="0 0 24 24">
+          <path d="m4 16 8-8 8 8"></path>
+        </svg>
+    </button>
 </body>
 </html>
