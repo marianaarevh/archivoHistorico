@@ -103,12 +103,12 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
   
-    background: url("../img/bg-archivo.jpeg") repeat center center fixed;
+    background: url("../img/bg-archivo.png") repeat center center fixed;
     background-size: cover;
   
     color: white;
   
-    height: 90vh;
+    height: 70vh;
 
   }
 
