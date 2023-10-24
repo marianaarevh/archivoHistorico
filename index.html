@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" type="image/x-icon" href="https://fontawesome.com/icons/book-open-reader?f=classic&s=solid">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,9 +12,8 @@
 
     <script src="https://kit.fontawesome.com/bc727d0392.js" crossorigin="anonymous"></script>
 
-    <script src="./js/main.js"></script>
 
-    <title>Jornada Archivistica</title>
+    <title>Congreso - Red de Archivistas</title>
 
 </head>
 <body>
@@ -28,34 +28,105 @@
             <li><a href="#conferencistas">Conferencistas</a></li>
             <li><a href="#programa">Programa</a></li>
             <li><a href="#ubicacion">Ubicacion</a></li>
-            <li><a href="#contacto">Contacto</a></li>
 
           </ul>
     
         </nav>
-        <a href="https://www.unison.mx/" target="_blank">
-            <img id="logo-unison" src="./img/logo-unison.png" title="UNISON">
+        <a id="contacto-logo" href="#contacto">
+          <i class="fa-solid fa-phone"></i>
         </a>
         
       </header>
     
         <section id="inicio">
             <div class="registro">
-                    <a href="#conferencistas">Regístrate aquí</a>
+                    <a href="https://forms.gle/Nw4vo3B542W5yCiRA" target="_blank">Regístrate aquí</a>
             </div>
         </section>
         
         <section id="conferencistas">
             <h1>Conferencistas</h1>
+
+            <div class="carousel">
+                <div class="slide">
+                  <img src="./img/conferencistas/conferencista2.jpeg" alt="Imagen 1">
+                  <div class="caption">
+                    <h3>Martin Juarez</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur turpis et sem egestas pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <img src="./img/conferencistas/conferencista1.jpeg" alt="Imagen 2">
+                  <div class="caption">
+                    <h3>Sara Hernadez</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur turpis et sem egestas pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+                <div class="slide">
+                    <img src="./img/conferencistas/conferencista3.jpeg" alt="Imagen 1">
+                    <div class="caption">
+                      <h3>Slide 1</h3>
+                      <p>Descripción del Slide 1.</p>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <img src="./img/conferencistas/conferencista4.jpeg" alt="Imagen 2">
+                    <div class="caption">
+                      <h3>Slide 2</h3>
+                      <p>Descripción del Slide 2.</p>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <img src="./img/conferencistas/conferencista5.jpeg" alt="Imagen 1">
+                    <div class="caption">
+                      <h3>Slide 1</h3>
+                      <p>Descripción del Slide 1.</p>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <img src="./img/conferencistas/conferencista1.jpeg" alt="Imagen 2">
+                    <div class="caption">
+                      <h3>Slide 2</h3>
+                      <p>Descripción del Slide 2.</p>
+                    </div>
+                  </div>
+              </div>
+
         </section>
     
         <section id="programa">
             <h1>Programa</h1>
+            <div class="proximos-eventos">
+              <div class="evento">
+                  <div class="evento-fecha">
+                      <p>29</p> 
+                      <p>OCT</p>
+                  </div>
+                  <div class="evento-info">
+                      <p id="evento-nombre">Conferencia Especial</p>
+                      <p id="evento-artista">Marisol Estrella</p>
+                      <p id="evento-lugar">9:00 AM</p>
+                  </div>
+              </div>
+
+              <div class="evento">
+                  <div class="evento-fecha">
+                      <p>10</p> 
+                      <p>NOV</p>
+                  </div>
+                  <div class="evento-info">
+                      <p id="evento-nombre">Conferencia 1</p>
+                      <p id="evento-artista">Paula Hernandez</p>
+                      <p id="evento-lugar">8:00 AM</p>
+                  </div>
+              </div>
+            </div>
 
         </section>
 
         <section id="ubicacion">
             <h1>Ubicación</h1>
+            <h3>Centro de las artes</h3>
 
             <div class="mapa-container">
 
@@ -80,7 +151,7 @@
             <div class="tarjeta-contacto">
                 <div class="tarjeta-contenedor">
                     <h1> Contactáctanos! </h1>
-                    <p>lenguasextranjeras@unison.mx</p>
+                    <p>red.archivistas.sonora@gmail.com</p>
                     <p>Tels: (662) 454.8415 </p>
 
                 </div>
@@ -115,7 +186,7 @@
 
     
         <footer>
-           <p>2023 Archivo General Universitario</p>
+           <p>2023 Red De Archivistas de Sonora</p>
         </footer>
     
       <main>
@@ -127,5 +198,9 @@
           <path d="m4 16 8-8 8 8"></path>
         </svg>
     </button>
+
+
+    <script src="./js/main.js"></script>
+
 </body>
 </html>
